@@ -1,5 +1,7 @@
 package utils;
 
+import java.util.Iterator;
+
 public class utilArrays {
 
 	
@@ -36,8 +38,17 @@ public class utilArrays {
 	
 	
 	
-	
-	
+	/**
+	 * Muetra en consola todos los numeros de un array en linea. 
+	 * @param array
+	 */
+	public static void imprimeArray (int array[]) {
+		
+		for (int i = 0; i < array.length; i++) {
+			System.out.print(array[i] + " ");
+		}
+		
+	}
 	
 	
 	
