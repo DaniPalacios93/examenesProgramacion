@@ -1,4 +1,4 @@
-package examenesProgramacion;
+package examen20231024;
 
 public class prueba {
 
