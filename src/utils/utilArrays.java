@@ -7,6 +7,7 @@ public class utilArrays {
 	
 //METODOS SIMPLES
 	
+	
 	/**
 	 * Inicializa un array con números aleatorios entre 0 y 100
 	 * @param array
@@ -17,9 +18,6 @@ public class utilArrays {
 			array[i] = (int)Math.round(Math.random()*100);
 		}
 	}
-	
-	
-	
 	
 	
 	/**
@@ -35,7 +33,6 @@ public class utilArrays {
 			array[i] = (int)Math.round(Math.random() * (limSup - limInf)) + limInf;
 		}
 	}
-	
 	
 	
 	/**
@@ -84,9 +81,6 @@ public class utilArrays {
 		}while(estaOrdenada == false);
 	}
 
-	
-
-
 
 	/**
 	 * Lanza el algoritmo de ordenación por "inserción directa" sobre el array introducido en el método.
@@ -116,9 +110,6 @@ public class utilArrays {
 			System.out.print(array[i] + " ");
 		}
 	}
-
-	
-	
 	
 	
 	/**
@@ -155,10 +146,7 @@ public class utilArrays {
 			shell--;
 			
 		}while (shell >= 1);
-	}
-	
-		
-	
+	}	
 	
 	
 	/**
