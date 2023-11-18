@@ -1,7 +1,5 @@
 package utils;
 
-import java.util.Iterator;
-
 public class utilArrays {
 
 	
@@ -146,7 +144,7 @@ public class utilArrays {
 			shell--;
 			
 		}while (shell >= 1);
-	}	
+	}
 	
 	
 	/**
