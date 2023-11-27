@@ -41,6 +41,7 @@ public class Ejercicio05 {
 		for (int i = subArray - 1; i < a.length; i++) {
 			
 			count = 0;
+			suma = 0;
 			
 			//Bucle que lee los subArrays y los va registrando
 			for (int j = i; j > (i - subArray); j--) {
@@ -54,7 +55,9 @@ public class Ejercicio05 {
 			if(suma > sumaMayor) {
 				
 				sumaMayor = suma;
-				subArrayMayor = subArrayPrueba;
+				for (int j = 0; j < subArrayMayor.length; j++) {
+					subArrayMayor[j] = subArrayPrueba[j];
+				}
 			}
 		}
 		
